@@ -1,0 +1,31 @@
+#todolistApp {
+    border: 1px solid #1c70ee;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+input {
+    margin: 5px;
+}
+
+input[type=text] {
+    border: 1px solid #000;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 1px solid #1c70ee;
+  }
+
+.ag-theme-material {
+    --ag-odd-row-background-color: rgb(153, 195, 243, 0.3);
+
+}
