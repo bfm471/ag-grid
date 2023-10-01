@@ -27,7 +27,7 @@ function Todolist() {
             sortable: true, 
             filter: true,
             floatingFilter: true,
-            cellStyle: params => params.value === "High" ? { color: 'hotpink' } : { color: 'black' }
+            cellStyle: params => params.value.toLowerCase() === "high" ? { color: 'hotpink', fontWeight: '700' } : { color: 'black' }
         }
     ];
 
